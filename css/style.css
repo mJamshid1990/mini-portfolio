@@ -1,0 +1,40 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header styles */
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px 10px;
+}
+
+.header__brand-image{
+  width: 100px;
+}
+
+.main-navigation__items{
+  display: flex;
+  align-items: center;
+}
+
+.main-navigation__item{
+  list-style: none;
+  padding: 5px 10px;
+}
+.main-navigation__item a{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
