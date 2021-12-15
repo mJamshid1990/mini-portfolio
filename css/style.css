@@ -42,8 +42,7 @@ body{
 /* Main styles */
 .main-banner{
   display: flex;
-  justify-content: space-around;
-  padding: 100px 10px 50px;
+  padding: 50px 10px;
 }
 
 .main-banner__info{
@@ -72,10 +71,16 @@ body{
   padding: 10px 0px;
   font-size: 20px;
   margin-top: 15px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #FF2233;
 }
 
 .main-section__image{
   margin-top: 40px;
+  margin-left: 250px;
 }
 
 .main-section__image img{
