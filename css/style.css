@@ -38,3 +38,47 @@ body{
   font-weight: 500;
   font-size: 20px;
 }
+
+/* Main styles */
+.main-banner{
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 10px 50px;
+}
+
+.main-banner__info{
+  width: 506px;
+}
+
+.main-section__welcome{
+  color: #21243D;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.main-section__introduction{
+  color: #21243D;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.button{
+  background-color: #FF6464;
+  color: #FFF;
+  border: none;
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  padding: 10px 0px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.main-section__image{
+  margin-top: 40px;
+}
+
+.main-section__image img{
+  border-radius: 50%;
+  box-shadow: -10px 10px 0px 0px #EDF7FA;
+}
