@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+:root{
+  --heebo: 'Heebo', sans-serif;
+  --darkColor: #21243D;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -5,6 +12,8 @@ html{
 body{
   margin: 0;
   padding: 0;
+  font-family: var(--heebo);
+  box-sizing: border-box;
 }
 
 .container{
@@ -13,7 +22,7 @@ body{
 }
 
 /* Header styles */
-.header{
+.header-1{
   display: flex;
   justify-content: space-between;
   padding: 20px 10px 10px;
@@ -40,7 +49,7 @@ body{
 }
 
 /* Main styles */
-.main-banner{
+.banner{
   display: flex;
   padding: 50px 10px;
 }
@@ -72,6 +81,7 @@ body{
   font-size: 20px;
   margin-top: 15px;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .button:hover{
@@ -86,4 +96,123 @@ body{
 .main-section__image img{
   border-radius: 50%;
   box-shadow: -10px 10px 0px 0px #EDF7FA;
+}
+/* /Main styles */
+
+/* Post styles */
+  .post{
+    background-color: #EDF7FA;
+    padding: 30px 0;
+  }
+  .post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .post__subtitle{
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+  }
+
+  .post-header a{
+    color: #00A8CC;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .post-cards{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .post-card{
+    width: 43%;
+    background-color: #fff;
+    padding: 27px;
+  }
+
+  .post-card__title{
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 38px;
+    color: var(--darkColor);
+  }
+
+  .post-card__date, .post-card__info{
+    font-size: 18px;
+  }
+
+  .post-card__date{
+    padding-right: 40px;
+    border-right: 1px solid black;
+  }
+
+  .post-card__info{
+    padding-left: 40px;
+  }
+
+  .post-card__text{
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+/* /Post styles */
+
+/* Feature styles */
+.features {
+  padding: 20px 0;
+}
+
+.features__subtitle{
+  font-weight: 400;
+  font-size: 22px;
+  color: #21243D;
+}
+
+.features-card{
+  padding: 20px 0px;
+  display: flex;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.features-card img{
+  width: 250px;
+}
+
+.features-card__info{
+  padding: 0 25px;
+}
+
+.features-card__title{
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: bold;
+  color: var(--darkColor);
+  margin: 0;
+  margin-bottom: 20px;
+}
+.features-card__year{
+  background: #142850;
+  color: #fff;
+  padding: 1px 10px;
+  border-radius: 16px;
+}
+
+.features-card__type{
+  color: #8695A4;
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.features-card__text{
+  font-size: 16px;
+  line-height: 23,5px;
+  font-weight: 400;
+
+}
+
+div{
+  /* border: 1px solid red; */
 }
